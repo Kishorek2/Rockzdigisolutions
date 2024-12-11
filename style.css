@@ -570,6 +570,11 @@ p.card-text {
   overflow: hidden; /* Hide the logos that scroll out of view */
 }
 
+.clients{
+  margin-left: 25px;
+    text-align: center;
+}
+
 .Trusted{
 font-size: 20px;
 color: #fff;
