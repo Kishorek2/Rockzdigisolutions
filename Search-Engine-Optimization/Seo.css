@@ -170,6 +170,11 @@ body {
       border-radius: 5px;
     }
 
+    .cmp-image__image{
+      width: 560px;
+      height: 355px;
+    }
+
     .about {
       display: flex;
       justify-content: space-between;
