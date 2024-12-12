@@ -941,6 +941,15 @@ button {
   font-weight: 700;
 }
 
+.form-control{
+  background-color: #000000;
+  color: #ffffff;
+}
+.form-control:focus{
+  background-color: #000000;
+  color: #ffffff;
+}
+
 button, input, optgroup, select, textarea {
   margin: 0;
   font-family: inherit;
