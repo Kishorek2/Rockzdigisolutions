@@ -485,8 +485,7 @@ margin-left: 65px;
   background-color: #9c27b0;
   background-size: cover;
   background-position: center;
-  background-image: url('bg-website.png');
-  /* background-image: image('../Images/bg-website.png'); */
+  background-image: url('Images/bg-website.png');
 }
 
 .card:hover {
