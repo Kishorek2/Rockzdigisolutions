@@ -485,7 +485,7 @@ margin-left: 65px;
   background-color: #9c27b0;
   background-size: cover;
   background-position: center;
-  /* background-image: url('Images/bg-website.png'); */
+  background-image: url('../Images/bg-website.png');
 }
 
 .card:hover {
@@ -913,8 +913,8 @@ button {
 .form-button{
   padding: 10px 20px;
   font-size: 1rem;
-  background-color: #ffffff;
-  color: rgb(0, 0, 0);
+  background-color: #000000;
+  color: #ffffff;
   border: none;
   cursor: pointer;
   margin: 10px 150px;
@@ -934,8 +934,8 @@ button {
 }
 
 .form-button:hover {
-  background-color: #9c27b0;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #9c27b0;
 }
 
 button, input, optgroup, select, textarea {
