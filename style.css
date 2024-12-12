@@ -921,6 +921,7 @@ button {
   margin: 10px 150px;
   border-radius: 5px;
   transition: background-color 0.3s ease;
+  font-weight: 700;
 }
 
 
@@ -937,6 +938,7 @@ button {
 .form-button:hover {
   background-color: #ffffff;
   color: #9c27b0;
+  font-weight: 700;
 }
 
 button, input, optgroup, select, textarea {
