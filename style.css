@@ -752,7 +752,7 @@ margin-bottom: 50px;
 }
 
 .left-column h2 {
-  font-size: 2rem;
+  /* font-size: 2rem; */
   color: #ffffff;
 }
 
@@ -875,7 +875,7 @@ button {
 }
 
 .contact-info h2 {
-  font-size: 32px;
+  /* font-size: 32px; */
   margin-bottom: 20px;
 }
 
