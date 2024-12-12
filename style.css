@@ -457,7 +457,7 @@ margin-left: 65px;
 
 .Services{
   margin-left: 65px;
-  font-size: 50px;
+  font-size: 45px;
   font-family: Inter;
   font-weight: 400;
   line-height: 55px;
@@ -571,7 +571,7 @@ p.card-text {
 }
 
 .clients{
-  font-size: 50px;
+  font-size: 45px;
   font-family: Inter;
   font-weight: 400;
   margin-left: 25px;
@@ -579,7 +579,7 @@ p.card-text {
 }
 
 .Trusted{
-font-size: 50px;
+font-size: 45px;
 font-family: Inter;
 font-weight: 400;
 color: #fff;
@@ -641,7 +641,7 @@ margin-bottom: 50px;
 
 .about{
   color:#ffffff;
-  font-size: 50px;
+  font-size: 45px;
   font-family: Inter;
   font-weight: 400;
   background-color: #000000;
@@ -664,7 +664,7 @@ margin-bottom: 50px;
 }
 
 .header-offer{
-  font-size: 50px;
+  font-size: 45px;
   font-family: Inter;
   font-weight: 400;
   color: #ffffff;
@@ -836,8 +836,9 @@ button {
 
 .contact{
   color: #ffffff;
-  /* font-family: "Archivo Black", sans-serif; */
-  font-size: 35px;
+  font-size: 45px;
+  font-family: Inter;
+  font-weight: 400;
 }
 
 .contact-para{
@@ -985,7 +986,7 @@ margin-left: 140px;
 }
 
 .Recent{
-font-size: 60px;
+font-size: 45px;
 font-family: Inter;
 font-weight: 400;
 line-height: 55px;
@@ -1050,6 +1051,7 @@ margin-left: 140px;
   cursor: pointer;
   border: 1px solid #9c27b0;
   text-align: center;
+  margin-left: 555px;
 }
 
 .see-more-btn:hover {
