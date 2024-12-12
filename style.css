@@ -486,6 +486,7 @@ margin-left: 65px;
   background-size: cover;
   background-position: center;
   background-image: url('/Images/bg-website.png');
+  background-size: 274px 422px;
   /* background-image: image('../Images/bg-website.png'); */
 }
 
