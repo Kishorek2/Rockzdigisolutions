@@ -28,7 +28,6 @@ function toggleMenu() {
 // Dark mode
 
   function myFunction() {
-    alert("Test");
    var element = document.body;
    element.classList.toggle("dark-mode");
 }
