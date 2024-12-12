@@ -492,6 +492,10 @@ margin-left: 65px;
   height: 200px;
 }
 
+.bg-image:hover{
+  background-color: #535353 !important;
+}
+
 .card:hover {
   transform: scale(1.05);
   background-color: #535353 !important;
