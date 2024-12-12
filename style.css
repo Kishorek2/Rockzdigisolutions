@@ -872,8 +872,6 @@ button {
 
 .contact-info {
   max-width: 90%;
-  background-color: #9c27b0;
-    border-radius: 25px;
 }
 
 .contact-info h2 {
@@ -887,6 +885,8 @@ button {
 
 .contact-form {
   max-width: 50%;
+  background-color: #9c27b0;
+    border-radius: 25px;
 }
 
 .contact-form form {
