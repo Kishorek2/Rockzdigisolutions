@@ -866,6 +866,11 @@ button {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+.git{
+    color: #9c27b0;
+    text-align: center;
+}
+
 .contact-info, .contact-form {
   flex: 1;
   padding: 20px;
@@ -886,8 +891,8 @@ button {
 
 .contact-form {
   max-width: 50%;
-  background-color: #9c27b0;
-    border-radius: 25px;
+  border-radius: 25px;
+  border: 3px solid #9c27b0;
 }
 
 .contact-form form {
@@ -936,8 +941,8 @@ button {
 }
 
 .form-button:hover {
-  background-color: #ffffff;
-  color: #9c27b0;
+  background-color: #9c27b0;
+  color: #fff;
   font-weight: 700;
 }
 
