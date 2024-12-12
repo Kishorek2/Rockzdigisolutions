@@ -902,7 +902,8 @@ button {
   font-weight: 700;
 }
 
-.contact-form input,
+.contact-form input 
+.contact-form select
 .contact-form textarea {
   padding: 8px;
   margin-bottom: 15px;
