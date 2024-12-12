@@ -451,7 +451,7 @@ border-radius: 4px;
 padding-left: 1px;
 padding-top: 1px;
 border: 1px solid #9c27b0;
-background-color: #9c27b0;
+/* background-color: #9c27b0; */
 margin-left: 65px;
 }
 
@@ -1011,7 +1011,7 @@ border-radius: 4px;
 padding-left: 2px;
 padding-top: 1px;
 border: 1px solid #9c27b0;
-background-color: #9c27b0;
+/* background-color: #9c27b0; */
 margin-left: 140px;
 }
 
