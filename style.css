@@ -491,7 +491,7 @@ margin-left: 65px;
 .card:hover {
   transform: scale(1.05);
   /* background-color: #535353 !important; */
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  background: radial-gradient(circle at 30% 107%, #9c27b0 0%, #fff 5%, #9c27b0 45%, #fff 60%, #9c27b0 90%);
 }
 
 .card-body{
