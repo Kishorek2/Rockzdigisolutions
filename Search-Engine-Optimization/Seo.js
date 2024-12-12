@@ -15,6 +15,7 @@ rockz.style.display = 'none';
 });
 
 function toggleMenu() {
+  alert("true");
     const navbarCollapse = document.getElementById('navbarTogglerDemo2');
     if (navbarCollapse.style.display == "block") {
       navbarCollapse.style.display = "none";
