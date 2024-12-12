@@ -498,7 +498,7 @@ margin-left: 65px;
   position: relative;
   z-index: 2;
   padding: 20px;
-  color: white;
+  /* color: white; */
 }
 
 .card-text{
