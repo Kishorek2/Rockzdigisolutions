@@ -147,47 +147,53 @@ body {
       color: #333;
     }
 
-  /* H1 */
-
-    #fm{
-      background-color: #000000;
-    }
-
-    .container {
+    .header {
+      background-color: #000;
+      color: #fff;
       display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      max-width: 1200px;
-      margin: 0px auto;
-      padding: 10px;
-      gap: 20px; /* Spacing between columns */
-    }
-    
-    .Brand{
-      background-color: #000000;
-      font-size: 60px;
-      color: #9c27b0;
-      margin-top: 40px;
-      text-align: center;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px;
     }
 
-
-
-    /* H2 */
-
-    #About{
-      background-color: #000000;
+    .header h1 {
+      font-size: 36px;
     }
 
-    .about{
-      color:#ffffff;
+    .header button {
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      background-color: #fff;
+      color: #000;
+      cursor: pointer;
+      border-radius: 5px;
     }
 
-    .para{
-      color:#fff;
+    .about {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px;
     }
 
+    .about div {
+      flex: 1;
+    }
 
+    .about p {
+      font-size: 18px;
+    }
+
+    .about button {
+      margin-right: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: 1px solid #000;
+      background-color: #fff;
+      cursor: pointer;
+      border-radius: 5px;
+    }
 
     /*footer*/
 
