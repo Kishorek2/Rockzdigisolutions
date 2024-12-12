@@ -661,15 +661,17 @@ margin-bottom: 50px;
 }
 
 .header-offer{
-  font-size: 28px;
+  font-size: 50px;
+  font-family: Inter;
+  font-weight: 400;
   color: #ffffff;
 }
 
-.header-main{
+/* .header-main{
   font-size: 32px;
   color: #9c27b0;
   margin-bottom: 40px;
-}
+} */
 
 .service-grid {
   display: grid;
