@@ -1,5 +1,3 @@
-// Logo 
-
 const logo = document.querySelector('.logo');
 const rockz = document.querySelector('.rockz');
 
