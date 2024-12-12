@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Rockzdigisolutions</title>
+    <link rel="icon" type="image/x-icon" href="logo/rockz-logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Nunito+Sans:ital,wght@1,300&family=Open+Sans:ital,wght@1,300&family=Pacifico&family=Patrick+Hands&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+    
+    
+  </head>
+
+  <body>
+
+    <section id="title">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="navbar-brand">
+            <a href="https://kishorek2.github.io/Rockzdigisolutions/"><img class="logo" src="logo/rockz-logo.png" alt="Logo"></a>
+          </div>
+          <div class="rockz" href="https://kishorek2.github.io/Rockzdigisolutions/">ockz</div>
+          <button class="navbar-toggler" type="button" aria-label="Toggle navigation" onclick="toggleMenu()">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo2">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="About-us/aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#services" id="servicesDropdown">
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Search-Engine-Optimization/Seo.html">Search Engine Optimization</a></li>
+                  <li><a class="dropdown-item" href="Social-Media-Marketing/Smm.html">Social Media Marketing</a></li>
+                  <li><a class="dropdown-item" href="PPC-Campaigns/Ppc.html">PPC Campaigns</a></li>
+                  <li><a class="dropdown-item" href="Content-Marketing/Content.html">Content Marketing</a></li>
+                  <li><a class="dropdown-item" href="Email-Marketing/Email.html">Email Marketing</a></li>
+                  <li><a class="dropdown-item" href="Web-Development-&-Design/Wdd.html">Web Development & Design</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Portfolio/Portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Blog/Blog.html">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Testimonials/Testimonials.html">Testimonials</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact-us/contactus.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <!-- <div><button onclick="myFunction()"><i class="fa-regular fa-toggle-on" style="color: #9c27b0;"></i></button></div> -->
+        </nav>
+      </div>
+    </section>
+    
+    
+
+<!--title-page-->
+
+<section id="hero">
+  <div class="container">
+    <!-- First column with headings -->
+    <div class="column large-column">
+      <h1 class="Strategy">Strength in Strategy</h1>
+      <h1 class="Reach">Power in <img class="R" href="" src="logo/rockz-logo.png" alt="Logo">esults</h1>
+    </div>
+
+    <!-- Second column with paragraph -->
+    <div class="column small-column">
+      <div class="rectangle hero-para"></div>
+      <p class="hero-para">This is the content of the second column. On desktop, this will be on the right side. On mobile, this will be stacked below the first column.this will be stacked below the first column</p>
+      <p class="hero-para">This is the content</p>
+    </div>
+  </div>
+</section>
+
+
+<!--Services Details-->
+
+<section id="Services">
+  <p class="our">Our Services</p>
+  <h2 class="Services">Services for our clients</h2>
+  <!-- <span class="timer" style="color: #fff;" data-from="0" data-to="100" data-speed="1200" data-refresh-interval="5">100</span> -->
+  <div class="container">
+    <div class="row">
+
+      <!-- First Card -->
+      <div class="col-lg-3 mb-3">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="bike"><strong>Classic</strong></h4>
+            <h5 class="card-title">INR 50,000/- per Adult</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Second Card -->
+      <div class="col-lg-3 mb-3">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="bike"><strong>Classic</strong></h4>
+            <h5 class="card-title">INR 50,000/- per Adult</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Third Card -->
+      <div class="col-lg-3 mb-3">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="bike"><strong>Premium</strong></h4>
+            <h5 class="card-title">INR 70,000/- per Adult</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fourth Card -->
+      <div class="col-lg-3 mb-3">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="bike"><strong>Super Premium</strong></h4>
+            <h5 class="card-title">INR 90,000/- per Adult</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+
+    </div> <!-- End of Row -->
+
+
+    <div class="row">
+      <!-- First Card -->
+      <div class="col-lg-3 mb-3">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="bike"><strong>Classic</strong></h4>
+            <h5 class="card-title">INR 50,000/- per Adult</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Second Card -->
+      <div class="col-lg-3 mb-3">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="bike"><strong>Classic</strong></h4>
+            <h5 class="card-title">INR 50,000/- per Adult</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Third Card -->
+      <div class="col-lg-3 mb-3">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="bike"><strong>Premium</strong></h4>
+            <h5 class="card-title">INR 70,000/- per Adult</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fourth Card -->
+      <div class="col-lg-3 mb-3">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="bike"><strong>Super Premium</strong></h4>
+            <h5 class="card-title">INR 90,000/- per Adult</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+
+    </div> <!-- End of Row -->
+  </div> <!-- End of Container -->
+</section>
+
+<!-- Clients logo -->
+
+<section id="clients">
+  <div class="logo-container">
+    <div class="logo-slider">
+      <h2 class="Trusted">Trusted by management of industry</h2>
+      <marquee width="100%" direction="left">
+      <img src="logo/rockz-logo.png" alt="Client 1" class="client-logo">
+      <img src="logo/rockz-logo.png" alt="Client 2" class="client-logo">
+      <img src="logo/rockz-logo.png" alt="Client 3" class="client-logo">
+      <img src="logo/rockz-logo.png" alt="Client 4" class="client-logo">
+      <img src="logo/rockz-logo.png" alt="Client 5" class="client-logo">
+      <img src="logo/rockz-logo.png" alt="Client 6" class="client-logo">
+      <!-- Repeat the logos for continuous scrolling effect -->
+      <img src="logo/rockz-logo.png" alt="Client 1" class="client-logo">
+      <img src="logo/rockz-logo.png" alt="Client 2" class="client-logo">
+      <img src="logo/rockz-logo.png" alt="Client 3" class="client-logo">
+      <img src="logo/rockz-logo.png" alt="Client 4" class="client-logo">
+      <img src="logo/rockz-logo.png" alt="Client 5" class="client-logo">
+      <img src="logo/rockz-logo.png" alt="Client 6" class="client-logo">
+    </marquee>
+    </div>
+  </div>
+</section>
+
+
+<!-- About us -->
+
+<section id="hero">
+  <div class="container">
+    <!-- First column with headings -->
+    <!-- <div class="column large-column">
+      <img src="" alt="About"></img>
+    </div> -->
+
+    <!-- Second column with paragraph -->
+    <div class="column small-column">
+      <h2 class="about">About us</h2>
+      <p class="about-para">This is the content of the second column. On desktop, this will be on the right side. <br>On mobile, this will be stacked below the first column.this will be stacked below the first column</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- Offer -->
+
+  <section id="offer">
+    <div class="container-offer">
+      <h2 class="header-offer">We Offer Digital Marketing</h2>
+      <!-- <h3 class="header-main">Digital Marketing</h3> -->
+      <div class="service-grid">
+        <div class="service-item">
+          <img src="Icons/shop.png">
+          <p>Health care Industry</p>
+        </div>
+        <div class="service-item">
+          <img src="Icons/shop.png">
+          <p>Education</p>
+        </div>
+        <div class="service-item">
+          <img src="Icons/shop.png">
+          <p>B2B</p>
+        </div>
+        <div class="service-item">
+          <img src="Icons/shop.png">
+          <p>Hospitality</p>
+        </div>
+        <div class="service-item">
+          <img src="Icons/shop.png">
+          <p>Food Industry</p>
+        </div>
+        <div class="service-item">
+          <img src="Icons/shop.png">
+          <p>Small Business</p>
+        </div>
+      </div>
+
+      <div class="service-grid">
+        <div class="service-item">
+          <img src="Icons/shop.png">
+          <p>Health care Industry</p>
+        </div>
+        <div class="service-item">
+          <img src="Icons/shop.png">
+          <p>Education</p>
+        </div>
+        <div class="service-item">
+          <img src="Icons/shop.png">
+          <p>B2B</p>
+        </div>
+        <div class="service-item">
+          <img src="Icons/shop.png">
+          <p>Hospitality</p>
+        </div>
+        <div class="service-item">
+          <img src="Icons/shop.png">
+          <p>Food Industry</p>
+        </div>
+        <div class="service-item">
+          <img src="Icons/shop.png">
+          <p>Small Business</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+<!-- Image Section -->
+
+<!-- <section>
+  <div class="carousel-container">
+    <div class="carousel-wrapper" id="carouselWrapper">
+      <div class="carousel-item">Card 1</div>
+      <div class="carousel-item">Card 2</div>
+      <div class="carousel-item">Card 3</div>
+      <div class="carousel-item">Card 4</div>
+      <div class="carousel-item">Card 5</div>
+    </div>
+  </div>
+  </section> -->
+
+
+<!-- Testimonials -->
+
+<section class="testimonials">
+  <div class="testimonial-container">
+      <div class="left-column">
+          <h2 class="clients">Clients Talk</h2>
+      </div>
+
+      <div class="right-column">
+          <div class="testimonial-wrapper">
+              <div class="testimonial">
+                <!-- <img class="shop" src="Icons/shop.png"> -->
+                  <p>"RockzDigiSolutions transformed our online presence! We saw a 50% increase in website traffic and engagement within just three months. Their team’s strategic approach to SEO and social media marketing exceeded our expectations!"</p>
+                  <h4>Ravi Kumar</h4>
+                  <p>CEO of TechWorld Innovations</p>
+              </div>
+
+              <div class="testimonial">
+                  <p>"The team at RockzDigiSolutions went above and beyond to understand our unique needs. Their guidance on performance marketing was invaluable, helping us reach a larger audience and boost our brand visibility."</p>
+                  <h4>Manoj Singh</h4>
+                  <p>Marketing Head at NextGen Realty</p>
+              </div>
+
+              <div class="testimonial">
+                  <p>"We trusted RockzDigiSolutions with our paid ad campaigns, and the results were outstanding. Their precise targeting and creative ad content led to a 3x return on investment. Our business growth has never been better!"</p>
+                  <h4>Anita Verma</h4>
+                  <p>Founder of EcoFresh Products</p>
+              </div>
+
+              <div class="testimonial">
+                <p>"RockzDigiSolutions provided us with fresh ideas that completely revamped our digital strategy. Their professionalism and creativity in social media campaigns made all the difference for our business."</p>
+                <h4>Neha Patel</h4>
+                <p>Director of Glow Beauty Products</p>
+            </div>
+
+            <div class="testimonial">
+              <p>"Working with RockzDigiSolutions was a game-changer. Their transparency in reporting and focus on tangible results gave us the confidence we were looking for in a marketing partner. We’ve seen consistent growth in our lead generation."</p>
+              <h4>Rajesh Agarwal</h4>
+              <p>Owner of SmartHome Solutions</p>
+          </div>
+
+          <div class="testimonial">
+            <p>"What impressed us the most about RockzDigiSolutions was their ability to tailor digital marketing strategies specifically for our niche. Their personalized approach made us feel like we were their top priority!"</p>
+            <h4>Shreya Malhotra</h4>
+            <p>Co-Founder of UrbanGlam Fashion</p>
+        </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="testimonial-controls">
+      <button id="prev-btn"><i class="fa-solid fa-play fa-rotate-180"></i></button>
+      <button id="next-btn"><i class="fa-solid fa-play"></i></button>
+  </div>
+</section>
+
+
+
+<!-- Contact Form -->
+
+<section id="contact-section">
+  <div class="container">
+    <!-- Left content -->
+    <div class="contact-info">
+      <h2 class="contact">Contact Us Today</h2>
+      <p class="contact-para">Reach out to us with your queries. We are here to help you with your digital marketing needs.</p>
+    </div>
+
+    <!-- Right contact form -->
+    <div class="contact-form">
+      <div class="col-lg-12">
+        <form action="send-email.php" method="post">
+
+          <h3 class="git mb-4">Get in Touch</h3>
+          
+          <div class="row mb-2">
+            <div class="form-group col-md-6">
+              <label for="inputName">Name</label>
+              <input type="name" class="form-control" id="inputName" autocomplete="off" placeholder="" required>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPhoneNumber">Phone Number</label>
+              <input type="phone number" class="form-control" id="inputPhoneNumber" autocomplete="off" placeholder="" required>
+            </div>
+          </div>
+
+          <div class="row mb-2 mt-2">
+            <div class="form-group col-md-6">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" class="form-control" autocomplete="off" required>
+            </div>
+            <div class="form-group col-md-6">
+            <label for="cars">Services:</label>
+            <select id="cars" name="cars" class="form-control">
+              <option value="" selected>Select a Service</option>
+              <option value="volvo">SEO</option>
+              <option value="saab">SMM</option>
+              <option value="fiat">PPC</option>
+              <option value="audi">Content Marketing</option>
+            </select>
+            </div>
+          </div>
+
+          <div class="row mb-2 mt-2">
+            <div class="form-group col-md-12">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" class="form-control" rows="4" autocomplete="off" placeholder="" required></textarea>
+            </div>
+          </div>
+  
+          <button class="form-button" type="submit">Submit</button>
+        </form>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<!-- Blogs -->
+
+<section id="recent-articles">
+  <p class="Think">Thinking</p>
+<h2 class="Recent">Recent articles</h2>
+
+  <div class="articles-container" id="articlesContainer">
+      <div class="article-card">
+          <img src="https://via.placeholder.com/300" alt="Article 1">
+          <div class="article-tag">M&A</div>
+          <h3>M&A deals with freelancers – the pros and cons for businesses</h3>
+          <p>By Pieter Ezinga</p>
+      </div>
+      <div class="article-card">
+          <img src="https://via.placeholder.com/300" alt="Article 2">
+          <div class="article-tag">CREW</div>
+          <h3>From scrappy start-up life to serious business – 3 lessons from our second</h3>
+          <p>By Thijmen Kaster and Joeri Schouten</p>
+      </div>
+      <div class="article-card">
+          <img src="https://via.placeholder.com/300" alt="Article 3">
+          <div class="article-tag">PRIVATE EQUITY</div>
+          <h3>From member to client – how to start a private equity firm from scratch</h3>
+          <p>By Benoit Lammers</p>
+      </div>
+  </div>
+
+  <a href="Blog/Blog.html"><button class="see-more-btn" >See more ➔</button></a>
+
+</section>
+<?php include 'contact-us/contactus.php'; ?>
+    <!--Footer-->
+
+    <footer id="contact">
+        <i class="social-icon fab fa-facebook-f fa-2x"></i>
+        <i class="social-icon fab fa-twitter fa-2x"></i>
+        <i class="social-icon fab fa-instagram fa-2x"></i>
+        <i class="social-icon fas fa-envelope fa-2x"></i>
+        <p class="copy">© 2024 Copyright | Rockzdigisolutions</p>
+    </footer>
+
+
+  </body>
+</html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="/etc.clientlibs/clientlibs/granite/jquery/granite.lc-011c0fc0d0cf131bdff879743a353002-lc.min.js"></script>
+<script src="main.js"></script>
