@@ -949,6 +949,7 @@ button {
 .form-control{
   background-color: #000000 !important;
   color: #ffffff !important;
+  padding: .375rem .75rem !important;
 }
 .form-control:focus{
   background-color: #000000 !important;
