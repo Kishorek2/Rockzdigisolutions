@@ -153,11 +153,16 @@ body {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 50px;
+      padding: 53px;
     }
 
     .header h1 {
-      font-size: 36px;
+      font-size: 42px;
+      font-weight: 650;
+    }
+
+    .header p {
+      font-size: 20px;
     }
 
     .header button {
