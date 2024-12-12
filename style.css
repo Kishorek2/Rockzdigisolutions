@@ -942,12 +942,12 @@ button {
 }
 
 .form-control{
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #000000 !important;
+  color: #ffffff !important;
 }
 .form-control:focus{
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #000000 !important;
+  color: #ffffff !important;
 }
 
 button, input, optgroup, select, textarea {
