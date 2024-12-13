@@ -206,14 +206,14 @@ body {
       border-radius: 5px;
     }
 
-    .choose{
+    /* .choose{
         background-color: #000;
         color: #fff;
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 60px;
-    }
+    } */
 
     .choose h2{
       font-size: 35px;
