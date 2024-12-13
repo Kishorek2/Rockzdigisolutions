@@ -240,7 +240,9 @@
     }
     
     .contact-info p {
-      font-size: 18px;
+      font-size: 30px;
+      font-weight: 600;
+      margin-top: 140px;
     }
     
     .contact-form {
