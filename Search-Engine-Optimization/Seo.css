@@ -222,6 +222,17 @@ body {
       margin-bottom: 35px;
     }
 
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 1200px;
+      margin: 0px auto;
+      padding: 10px;
+      gap: 20px; /* Spacing between columns */
+    }
+
+
     .offer h2{
       font-size: 35px;
       font-family: Inter;
