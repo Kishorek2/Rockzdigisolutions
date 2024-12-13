@@ -222,6 +222,18 @@ body {
       margin-bottom: 35px;
     }
 
+    .offer h2{
+      font-size: 35px;
+      font-family: Inter;
+      font-weight: 400;
+      margin-bottom: 35px;
+    }
+
+    .card1{
+      width: 18rem;
+      margin-right: 75px;
+    }
+
     /*footer*/
 
     #contact{
