@@ -245,24 +245,24 @@ body {
       text-align: center;
     }
     
-    .hover-heading {
+    .Audit-heading {
       cursor: pointer;
       display: inline-block;
-      color: #333;
+      color: #ffffff;
       transition: color 0.3s ease;
     }
 
-    .hover-heading:hover {
-      color: #007BFF;
+    .Audit-heading:hover {
+      color: #9c27b0;
     }
 
-    .hidden-paragraph {
+    .hidden-paragraph1 {
       display: none;
       margin-top: 10px;
-      color: #555;
+      color: #ffffff;
     }
 
-    .hover-heading:hover + .hidden-paragraph {
+    .Audit-heading:hover + .hidden-paragraph1 {
       display: block;
     }
 
