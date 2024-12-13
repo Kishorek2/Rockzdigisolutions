@@ -206,11 +206,19 @@ body {
       border-radius: 5px;
     }
 
+    .choose{
+        background-color: #000;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 60px;
+    }
+
     .choose h2{
       font-size: 35px;
       font-family: Inter;
       font-weight: 400;
-      text-align: center;
     }
 
     /*footer*/
