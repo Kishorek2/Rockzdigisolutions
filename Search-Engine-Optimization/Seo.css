@@ -222,6 +222,14 @@ body {
       margin-bottom: 35px;
     }
 
+    .offer{
+      background-color: #000;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 60px;
+    }
 
     /*footer*/
 
