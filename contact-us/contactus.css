@@ -169,6 +169,29 @@
       margin-top: 40px;
     }
 
+    .header {
+      background-color: #000;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 53px;
+    }
+
+    .header h1 {
+      font-size: 42px;
+      font-weight: 650;
+    }
+
+    .header p {
+      font-size: 20px;
+    }
+
+    .cmp-image__image{
+      width: 560px;
+      height: 355px;
+    }
+
     
     /* Contact Form */
     
