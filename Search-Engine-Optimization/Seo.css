@@ -238,6 +238,36 @@ body {
       font-weight: 400;
     }
 
+
+    .card1{
+      width: 18rem;
+      padding-right: 12px;
+      margin-right: 50px;
+    }
+
+    .card2{
+      width: 18rem;
+      padding-right: 12px;
+      margin-right: 50px;
+    }
+
+    .card3{
+      width: 18rem;
+      padding-right: 12px;
+      margin-right: 50px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
     /*footer*/
 
     #contact{
