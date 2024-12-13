@@ -193,9 +193,10 @@
     }
 
     .choose{
-      font-size: 35px;
+      font-size: 45px;
       font-family: Inter;
       font-weight: 400;
+      color: #9c27b0;
     }
 
     
@@ -209,6 +210,11 @@
     
     .contact-para{
       color: #ffffff;
+    }
+
+    .get{
+      font-family: Inter;
+      color: #9c27b0;
     }
     
     #contact-section {
