@@ -222,16 +222,6 @@ body {
       margin-bottom: 35px;
     }
 
-    .offer{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      max-width: 1200px;
-      margin: 0px auto;
-      padding: 10px;
-      gap: 20px; /* Spacing between columns */
-    }
-
     /*footer*/
 
     #contact{
