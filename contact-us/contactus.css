@@ -215,6 +215,8 @@
     .get{
       font-family: Inter;
       color: #9c27b0;
+      font-weight: 400;
+      text-align: center;
     }
     
     #contact-section {
