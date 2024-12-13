@@ -187,9 +187,10 @@ body {
     }
 
     .about h2{
-      font-size: 35px;
+      font-size: 45px;
       font-family: Inter;
       font-weight: 400;
+      color: #9c27b0;
     }
 
     .about p {
@@ -216,10 +217,11 @@ body {
     }
 
     .choose h2{
-      font-size: 35px;
+      font-size: 45px;
       font-family: Inter;
       font-weight: 400;
       margin-bottom: 35px;
+      color: #9c27b0;
     }
 
     .container {
@@ -233,9 +235,10 @@ body {
     }
 
     .offer{
-      font-size: 35px;
+      font-size: 45px;
       font-family: Inter;
       font-weight: 400;
+      color:#9c27b0;
     }
 
 
@@ -250,6 +253,7 @@ body {
       display: inline-block;
       color: #ffffff;
       transition: color 0.3s ease;
+      font-size: 25px;
     }
 
     .Audit-heading:hover {
