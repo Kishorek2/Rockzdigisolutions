@@ -240,9 +240,12 @@
     }
     
     .contact-info p {
+      margin-top: 140px;
+    }
+
+    .contact-para{
       font-size: 30px;
       font-weight: 600;
-      margin-top: 140px;
     }
     
     .contact-form {
