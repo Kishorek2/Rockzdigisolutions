@@ -298,6 +298,11 @@ body {
       display: block;
     }
 
+    .card-img-2{
+      width: 60px;
+      height: 60px;
+      margin-bottom: 10px;
+    }
 
     .card2{
       padding-right: 12px;
