@@ -270,7 +270,7 @@ body {
       display: block;
     }
 
-    .card-img-1{
+    .card-img{
       width: 60px;
       height: 60px;
       margin-bottom: 10px;
@@ -296,12 +296,6 @@ body {
 
     .Research-heading:hover + .hidden-paragraph2 {
       display: block;
-    }
-
-    .card-img-2{
-      width: 60px;
-      height: 60px;
-      margin-bottom: 10px;
     }
 
     .card2{
