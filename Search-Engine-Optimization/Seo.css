@@ -321,6 +321,74 @@ body {
     }
 
 
+    .tech-heading {
+      cursor: pointer;
+      display: inline-block;
+      color: #ffffff;
+      transition: color 0.3s ease;
+      font-size: 25px;
+    }
+
+    .tech-heading:hover {
+      color: #9c27b0;
+    }
+
+    .hidden-paragraph4 {
+      display: none;
+      margin-top: 10px;
+      color: #ffffff;
+    }
+
+    .tech-heading:hover + .hidden-paragraph4 {
+      display: block;
+    }
+
+
+    .link-heading {
+      cursor: pointer;
+      display: inline-block;
+      color: #ffffff;
+      transition: color 0.3s ease;
+      font-size: 25px;
+    }
+
+    .link-heading:hover {
+      color: #9c27b0;
+    }
+
+    .hidden-paragraph5 {
+      display: none;
+      margin-top: 10px;
+      color: #ffffff;
+    }
+
+    .link-heading:hover + .hidden-paragraph5 {
+      display: block;
+    }
+
+    .local-heading {
+      cursor: pointer;
+      display: inline-block;
+      color: #ffffff;
+      transition: color 0.3s ease;
+      font-size: 25px;
+    }
+
+    .local-heading:hover {
+      color: #9c27b0;
+    }
+
+    .hidden-paragraph6 {
+      display: none;
+      margin-top: 10px;
+      color: #ffffff;
+    }
+
+    .local-heading:hover + .hidden-paragraph6 {
+      display: block;
+    }
+
+
     .card2{
       padding-right: 12px;
       margin-right: 50px;
