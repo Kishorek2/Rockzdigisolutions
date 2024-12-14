@@ -298,6 +298,29 @@ body {
       display: block;
     }
 
+    .on-heading {
+      cursor: pointer;
+      display: inline-block;
+      color: #ffffff;
+      transition: color 0.3s ease;
+      font-size: 25px;
+    }
+
+    .on-heading:hover {
+      color: #9c27b0;
+    }
+
+    .hidden-paragraph3 {
+      display: none;
+      margin-top: 10px;
+      color: #ffffff;
+    }
+
+    .on-heading:hover + .hidden-paragraph3 {
+      display: block;
+    }
+
+
     .card2{
       padding-right: 12px;
       margin-right: 50px;
