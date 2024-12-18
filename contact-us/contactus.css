@@ -354,31 +354,3 @@
         filter: blur(0);
         transform: translateX(0);
     } */
-
-
-
-
-
-    /*footer*/
-
-    #contact{
-      background-color: #000000;
-      padding: 2% 0%;
-      text-align: center;
-    }
-    
-    .social-icon{
-      margin: 20px 10px;
-      color: #fff;
-    }
-    
-    .social-icon:hover{
-      color: #9c27b0;
-    }
-    
-    
-    .copy{
-      color: #fff;
-    }
-
-
